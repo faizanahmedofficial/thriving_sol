@@ -1,0 +1,123 @@
+name: schedular_project
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  # alerts
+  fluttertoast: ^8.0.8
+  flutter_local_notifications: ^13.0.0
+  rxdart:
+  timezone:
+
+  #firebase
+  firebase_core: ^2.2.0
+  firebase_auth: ^4.1.2
+  firebase_messaging: ^14.1.0
+  firebase_storage: ^11.0.5
+  cloud_firestore: ^4.0.5
+
+  # statemanagement
+  get: ^4.3.6
+  shared_preferences:
+
+  # sharing
+  share_plus: ^6.2.0
+  url_launcher: ^6.0.9
+
+  #date & time
+  intl: ^0.18.0
+
+  #tables
+  editable: ^2.0.0
+
+  # networking
+  http: ^0.13.3
+  dio: 
+  flutter_file_dialog: ^3.0.0
+
+#  # text to speech
+#  flutter_tts:
+
+  # path provider
+  path_provider: ^2.0.2
+
+  #printing
+  printing: 
+  pdf: ^3.8.4
+
+  flutter_switch:
+
+#  audioplayers: ^0.20.1
+  # cr_calendar: ^0.0.8
+  # table_calendar: ^3.0.3
+  syncfusion_flutter_calendar: ^20.3.56
+  cell_calendar: ^0.7.0
+  add_2_calendar: ^2.1.2
+
+#  advance_pdf_viewer: 2.0.1
+
+  percent_indicator: ^4.2.2
+  circular_countdown_timer: ^0.2.0
+
+  duration_picker: ^1.1.1
+  just_audio: ^0.9.30
+  step_progress_indicator: 1.0.2
+  flutter_rating_bar: 4.0.1
+  
+  fl_chart: ^0.60.0
+  flutter_azure_tts: 0.1.5
+
+  reorderables: ^0.6.0
+  webview_flutter: 3.0.4
+  
+  wakelock: ^0.6.2
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  change_app_package_name: 
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+    - assets/audios/
+    - assets/readings/
+    - assets/listening/
+    - assets/listening/babystep.mp3
+    - assets/listening/3stagebreathing.mp3
+    - assets/listening/3statebreathing_humming.mp3
+    - assets/listening/fruit.mp3
+    - assets/listening/hydrate.mp3
+    - assets/listening/mindfulmeals.mp3
+    - assets/listening/progressivebody.mp3
+    - assets/listening/workout.mp3
+    - assets/audio/
+
+  fonts:
+    - family: ThrivingIcons
+      fonts:
+        - asset: assets/fonts/ThrivingIcons.ttf
+        
+    - family: Arial
+      fonts:
+        - asset: assets/fonts/Arialn.ttf
+        - asset: assets/fonts/ArialTh.ttf
+        - asset: assets/fonts/ARIBL0.ttf
+        - asset: assets/fonts/G_ari_bd.TTF
+        - asset: assets/fonts/G_ari_i.TTF
+        - asset: assets/fonts/GEO_AI__.TTF
